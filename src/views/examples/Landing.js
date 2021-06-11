@@ -20,11 +20,11 @@ import React from "react";
 import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
 import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
-import ill2 from "assets/img/ill/ill-2.svg";
-import team1 from "assets/img/theme/team-1-800x800.jpg";
-import team2 from "assets/img/theme/team-2-800x800.jpg";
-import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
+// import ill2 from "assets/img/ill/ill-2.svg";
+// import team1 from "assets/img/theme/team-1-800x800.jpg";
+// import team2 from "assets/img/theme/team-2-800x800.jpg";
+// import team3 from "assets/img/theme/team-3-800x800.jpg";
+// import team4 from "assets/img/theme/team-4-800x800.jpg";
 
 // reactstrap components
 import {
@@ -81,13 +81,10 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Web Development <span>Front-End development</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        Intrested in HTML, CSS, JS, ReactJS, Bootstrap
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -148,24 +145,26 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            201 Project - CourseCom
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This project repository for a website called
+                            CourseCom which offers online courses in web
+                            development field, created by a team of developers
+                            called Robots Sqaud.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              Elearning
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              Education
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              Courses
                             </Badge>
                           </div>
+
                           <Button
                             className="mt-4"
                             color="primary"

@@ -112,10 +112,12 @@ class Profile extends React.Component {
                           <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">4</span>
-                          <span className="description">
-                            Programming languages
-                          </span>
+                          <span className="heading">24</span>
+                          <span className="description">Repositories</span>
+                        </div>
+                        <div>
+                          <span className="heading">21</span>
+                          <span className="description"> Followers</span>
                         </div>
                       </div>
                     </Col>
@@ -145,8 +147,7 @@ class Profile extends React.Component {
                           A passionate student at LTUC. I got the chance to
                           learn web development there and the amount of
                           knowledge I got from them is massive. I'm familliar
-                          with HTML, CSS, and JavaScript, and liberaries such as
-                          REACT.JS
+                          with HTML, CSS, JS, ReactJS, Bootstrap.
                         </p>
                       </Col>
                     </Row>
