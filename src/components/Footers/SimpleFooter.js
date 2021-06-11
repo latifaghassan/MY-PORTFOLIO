@@ -73,20 +73,20 @@ class SimpleFooter extends React.Component {
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
                   Like us
                 </UncontrolledTooltip>
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
                   href="https://dribbble.com/latifaghassan"
                   id="tooltip829810202"
                   target="_blank"
-                >
-                  <span className="btn-inner--icon">
+                > */}
+                {/* <span className="btn-inner--icon">
                     <i className="fa fa-dribbble" />
-                  </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip829810202">
+                  </span> */}
+                {/* </Button> */}
+                {/* <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
