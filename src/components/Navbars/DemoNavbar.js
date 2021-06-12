@@ -1,19 +1,13 @@
 /*!
-
 =========================================================
 * Argon Design System React - v1.1.0
 =========================================================
-
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 Abdallah Alabed (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
+* Coded by Abdallah Alabed
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
 import React from "react";
 import { Link } from "react-router-dom";
@@ -174,15 +168,15 @@ class DemoNavbar extends React.Component {
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/landing-page" tag={Link}>
-                        My projects
+                        My Projects
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
                       {/* <DropdownItem to="/login-page" tag={Link}>
                         Login
-                      </DropdownItem> */}
-                      {/* <DropdownItem to="/register-page" tag={Link}>
+                      </DropdownItem>
+                      <DropdownItem to="/register-page" tag={Link}>
                         Register
                       </DropdownItem> */}
                     </DropdownMenu>
@@ -192,7 +186,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.linkedin.com/in/latifa-amaireh-497ba4203/"
+                      href="https://www.facebook.com/abdalllah01"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -202,13 +196,31 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Like us on Linkedin
+                      Like us on Facebook
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/latifa_amaireh/"
+                      href="https://www.linkedin.com/in/latifa-amaireh-497ba4203/
+                      "
+                      id="tooltip333589074"
+                      target="_blank"
+                    >
+                      <i className="fa fa-linkedin-square" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        linkedin
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip333589074">
+                      Like us on linkedin
+                    </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://www.instagram.com/latifa_amaireh/
+                      "
                       id="tooltip356693867"
                       target="_blank"
                     >
@@ -240,7 +252,8 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/latifaghassan"
+                      href="https://github.com/latifaghassan
+                      "
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -253,21 +266,21 @@ class DemoNavbar extends React.Component {
                       Star us on Github
                     </UncontrolledTooltip>
                   </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
-                    {/* <Button
+                  {/* <NavItem className="d-none d-lg-block ml-lg-4">
+                    <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href=""
+                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
                       target="_blank"
-                    > */}
-                    {/* <span className="btn-inner--icon">
+                    >
+                      <span className="btn-inner--icon">
                         <i className="fa fa-cloud-download mr-2" />
-                      </span> */}
-                    {/* <span className="nav-link-inner--text ml-1">
+                      </span>
+                      <span className="nav-link-inner--text ml-1">
                         Download
-                      </span> */}
-                    {/* </Button> */}
-                  </NavItem>
+                      </span>
+                    </Button>
+                  </NavItem> */}
                 </Nav>
               </UncontrolledCollapse>
             </Container>
