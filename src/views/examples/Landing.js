@@ -3,9 +3,9 @@
 * Argon Design System React - v1.1.0
 =========================================================
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Abdallah Alabed (https://www.creative-tim.com)
+* Copyright 2020 Latifa Ghassan (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-* Coded by Abdallah Alabed
+* Coded by Latifa Ghassan
 =========================================================
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -158,14 +158,14 @@ class Landing extends React.Component {
                               Courses
                             </Badge>
                           </div>
-                          {/* <Button
+                          <Button
                             className="mt-4"
                             color="primary"
                             href=""
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
-                          </Button> */}
+                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -188,14 +188,14 @@ class Landing extends React.Component {
                               success
                             </Badge>
                           </div>
-                          {/* <Button
+                          <Button
                             className="mt-4"
                             color="success"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
-                          </Button> */}
+                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -220,14 +220,14 @@ class Landing extends React.Component {
                               launch
                             </Badge>
                           </div>
-                          {/* <Button
+                          <Button
                             className="mt-4"
                             color="warning"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
-                          </Button> */}
+                          </Button>
                         </CardBody>
                       </Card>
                     </Col>

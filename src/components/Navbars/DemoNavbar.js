@@ -3,9 +3,9 @@
 * Argon Design System React - v1.1.0
 =========================================================
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Abdallah Alabed (https://www.creative-tim.com)
+* Copyright 2020 Latifa Ghassan (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-* Coded by Abdallah Alabed
+* Coded by Latifa Ghassan
 =========================================================
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -186,7 +186,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/abdalllah01"
+                      href="https://web.facebook.com/latifa.amaireh/"
                       id="tooltip333589074"
                       target="_blank"
                     >
